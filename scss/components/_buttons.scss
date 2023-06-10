@@ -1,0 +1,27 @@
+.button {
+    padding: 16px 30px;
+    border-radius: 30px;
+    display: inline-block;
+
+    &--cyan {
+        color: white;
+        background-color: var(--strong-cyan);
+        border-bottom: solid 3px var(--strong-cyan-900);
+
+        &:hover,
+        &:focus {
+            background-color: var(--strong-cyan-hover);
+        }
+    }
+
+    &--blue {
+        color: white;
+        background-color: var(--light-blue);
+        border-bottom: solid 3px var(--light-blue-900);
+
+        &:hover,
+        &:focus {
+            background-color: var(--light-blue-hover);
+        }
+    }
+}
